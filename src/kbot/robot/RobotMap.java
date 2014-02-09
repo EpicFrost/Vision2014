@@ -1,5 +1,7 @@
 package kbot.robot;
 
+import edu.wpi.first.wpilibj.camera.AxisCamera;
+
 /**
  * The RobotMap is a mapping from the ports sensors and actuators are wired into
  * to a variable name. This provides flexibility changing wiring, makes checking
@@ -8,6 +10,11 @@ package kbot.robot;
  */
 public class RobotMap 
 {
+    public static AxisCamera camera;
+    
+    public static void init() {
+        
+    }
     // For example to map the left and right motors, you could define the
     // following variables to use with your drivetrain subsystem.
     // public static final int leftMotor = 1;

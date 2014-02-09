@@ -13,7 +13,7 @@ import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import kbot.robot.commands.CommandBase;
-import kbot.robot.commands.ExampleCommand;
+import kbot.robot.commands.AxisCommand;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -32,10 +32,11 @@ public class KBot extends IterativeRobot {
      */
     public void robotInit() {
         // instantiate the command used for the autonomous period
-        autonomousCommand = new ExampleCommand();
+        autonomousCommand = new AxisCommand();
 
         // Initialize all subsystems
         CommandBase.init();
+        RobotMap.init();
     }
 
     public void autonomousInit() {
