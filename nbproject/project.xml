@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 
     This is a sample netbeans project file for a Sun Spot Application project.
@@ -84,7 +84,7 @@
             <compilation-unit>
                 <package-root>src</package-root>
                 <classpath mode="boot">${sunspot.home}\lib\squawk.jar</classpath>
-                <classpath mode="compile">${sunspot.home}\lib\wpilibj.jar;${sunspot.home}\lib\networktables-crio.jar</classpath>
+                <classpath mode="compile">C:/Users/Admin/sunspotfrcsdk\lib\wpilibj.jar;C:/Users/Admin/sunspotfrcsdk\lib\networktables-crio.jar;C:\Users\Admin\Downloads\opencv\build\java\opencv-248.jar;C:\Users\Admin\Documents\jai_windows-i586.jar</classpath>
                 <built-to>build</built-to>
                 <source-level>1.4</source-level>
             </compilation-unit>
